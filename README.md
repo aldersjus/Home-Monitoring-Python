@@ -3,6 +3,11 @@ Beginning development of a home monitoring system.
 
 Part 1 PIR example on a Raspberry Pi.
 
+You need:
+Raspberry Pi
+PIR Sensor
+LED
+
 The program senses movements through a PIR sensor. A movement object
 is created with the count and datetime passed in, this is stored in
 a list. The list is saved to a file periodically. The program will
