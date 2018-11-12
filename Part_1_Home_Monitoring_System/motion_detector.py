@@ -6,6 +6,8 @@
 #a list. The list is saved to a file periodically. The program will
 #also flash an LED to show it has detected movement.
 
+#You will need to create a data file called data.dat and store it in the same folder as this file.
+
 import RPi.GPIO as GPIO
 import time
 import datetime
