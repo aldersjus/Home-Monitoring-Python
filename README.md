@@ -4,8 +4,8 @@ Beginning development of a home monitoring system.
 Part 1 PIR example on a Raspberry Pi.
 
 You need:
-Raspberry Pi
-PIR Sensor
+Raspberry Pi,
+PIR Sensor,
 LED
 
 The program senses movements through a PIR sensor. A movement object
