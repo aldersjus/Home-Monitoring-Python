@@ -1,12 +1,15 @@
-# Home-Monitoring-System(on-going project)
-Beginning development of a home monitoring system. 
+# Home-Monitoring-Python
+### Beginning development of a home monitoring system. 
+___
 
-Part 1 PIR example on a Raspberry Pi.
+You will need:
+*Raspberry Pi
+*RIR Sensor
+*LED
 
-You need:
-Raspberry Pi,
-PIR Sensor,
-LED
+#### Why Python?
+Well, I originally was planning to make this with Android Things [see this repository](https://github.com/aldersjus/Home-Monitoring-Android-Things) as I have quite a bit experience with it. However, as I got into the project I started to encounter several issues, so I decided to try in Python and it was much simpler to implement!
+___
 
 The program senses movements through a PIR sensor. A movement object
 is created with the count and datetime passed in, this is stored in
